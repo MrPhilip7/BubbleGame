@@ -23,3 +23,5 @@ public class boundaries : MonoBehaviour {
         transform.position = viewPos;
     }
 }
+
+//Script from YT: https://youtu.be/ailbszpt_AI
