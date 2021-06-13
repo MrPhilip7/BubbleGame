@@ -5,7 +5,7 @@ using UnityEngine;
 public class PhoneTiltingMovingPlayer : MonoBehaviour {
     private Rigidbody2D rb;
     private float dirX;
-    private float moveSpeed = 20f;
+    public float moveSpeed = 20f;
 
     // Start is called before the first frame update
     private void Start() {
