@@ -13,7 +13,7 @@ public class TouchJump : MonoBehaviour {
 
     // Update is called once per frame
     private void Update() {
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) {
+        if ((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || Input.GetMouseButtonDown(0)) {
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Force);
         }
     }
